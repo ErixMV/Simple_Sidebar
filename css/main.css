@@ -1,0 +1,85 @@
+* {
+    color:        #bcbcbc;
+    font-family:    Verdana, Geneva, Tahoma, sans-serif;
+    margin:         0;
+    padding:        0;
+}
+
+.section-container {
+    border:         1px solid lightgray;
+    height:         1080px;
+    width:          100%;
+}
+
+.top-container {
+    background-color: red;
+}
+
+.middle-container {
+    background-color: green;
+}
+
+
+/* Sidebar code */
+.sidebar {
+    background-color: #2f3030;
+    height:             100%;
+    overflow:           hidden;
+    position:           fixed;
+    transition:         height .5s;
+    width:              45px; /* Default width of sidebar */
+    -webkit-transition: width .5s;
+    -moz-transition:    width .5s;
+}
+
+.sidebar:hover {
+    width: 180px;
+}
+
+/* Animation for menu icon */
+.sidebar .sb-icon i{
+    -webkit-transition: -webkit-transform .5s ease-in-out;
+    -moz-transition:    -moz-transform .5s ease-in-out;
+    transition:         transform .5s ease-in-out;
+}
+
+.sidebar:hover > .sb-icon i {
+    transform:          rotate(90deg);
+    -webkit-transform:  rotate(90deg);
+}
+
+.sidebar .sb-icon {
+    width:          100%;
+    height:         40px;
+    margin:         10px 10px 10px 0px;
+    text-align:     center;
+}
+
+.sidebar .sb-options-container {
+    width:          100%;
+    height:         40px;
+    padding:        10px 0px 10px 2px;
+}
+
+.sidebar .sb-options-container:hover {
+    background-color: rgb(58, 58, 59);
+}
+
+.sidebar .sb-options-container .sb-options-icon {
+    width:          40px;
+    height:         40px;
+    float:          left;
+    text-align:     center;
+    padding:        10px 0px;
+}
+
+.sidebar .sb-options-container .sb-options-text {
+    margin-left:    70px;
+    line-height:    40px;
+}
+
+.sidebar a {
+    text-decoration: none;
+}
+
+/* End Sidebar Code */
