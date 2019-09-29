@@ -5,21 +5,6 @@
     padding:        0;
 }
 
-.section-container {
-    border:         1px solid lightgray;
-    height:         1080px;
-    width:          100%;
-}
-
-.top-container {
-    background-color: red;
-}
-
-.middle-container {
-    background-color: green;
-}
-
-
 /* Sidebar code */
 .sidebar {
     background-color: #2f3030;
