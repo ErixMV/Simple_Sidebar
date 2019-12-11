@@ -1,0 +1,65 @@
+@use 'default'
+
+$primaryColor: #2f3030
+
+.wrapper
+    display: flex
+    position: relative
+
+/* * Sidebar code */
+.sidebar
+    background-color: $primaryColor
+    height: 100%
+    overflow: hidden
+    position: fixed
+    transition: height .5s
+    width: 45px
+    /* * Default width of sidebar */
+    -webkit-transition: width .5s
+    -moz-transition: width .5s
+
+    &:hover
+        width: 180px
+
+    &:hover>.sb-icon i
+        transform: rotate(90deg)
+        -webkit-transform: rotate(90deg)
+        -moz-transform: rotate(90deg)
+
+    a 
+        text-decoration: none
+
+    .sb-icon
+        width: 100%
+        height: 40px
+        margin: 10px 10px 10px 0px
+        text-align: center
+
+        i
+            -webkit-transition: -webkit-transform .5s ease-in-out
+            -moz-transition: -moz-transform .5s ease-in-out
+            transition: transform .5s ease-in-out
+
+    /* * Options style */
+    .sb-options-container 
+        width: 100%
+        height: 40px
+        padding: 10px 0px 10px 2px
+
+        &:hover 
+            background-color: rgb(58, 58, 59)
+
+        .sb-options-icon 
+            width: 40px
+            height: 40px
+            float: left
+            text-align: center
+            padding: 10px 0px
+
+        .sb-options-text 
+            margin-left: 70px
+            line-height: 40px
+
+   
+
+        
