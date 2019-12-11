@@ -40,9 +40,10 @@
   text-decoration: none;
 }
 .sidebar .sb-icon {
-  width: 100%;
+  width: 180px;
+  max-width: 180px;
   height: 40px;
-  margin: 10px 10px 10px 0px;
+  margin: 20px 12px 12px 0px;
   text-align: center;
 }
 .sidebar .sb-icon i {
@@ -68,6 +69,8 @@
 .sidebar .sb-options-container .sb-options-text {
   margin-left: 70px;
   line-height: 40px;
+  width: 180px;
+  max-width: 180px;
 }
 .sidebar .social_media {
   position: absolute;
